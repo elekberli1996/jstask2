@@ -1,18 +1,18 @@
 // //daxil olunan eded sadedir yoxsa murekkeb
 // let a= +prompt("1 eded daxil edin:");
-// c=Math.ceil(a/2);
+// c=Math.floor(a/2);
 // if(a===1){
 //     console.log(`${a} ne murekkeb ededir ne de sade`);
     
 // }
-// for(let i=2;i<=c;i++){
+// for(let i=2;i<=c+1;i++){
 
 //     if(a%i==0){
 //          console.log(`${a} murekkeb ededir`);
 //         break;   
 //     }
 
-//     else if (i===c) {
+//     else if (i===c+1) {
 //         console.log(`${a} sade ededir`);
 //     } 
 // }
@@ -62,7 +62,7 @@
 
 
 
-// //iki eded araliqindaki sade ededler
+//iki eded araliqindaki sade ededler
 // let a=+prompt("birinci ededi daxil edin");
 // let b=+prompt("ikinci ededi daxil edin");
 
@@ -70,13 +70,13 @@
 
 // for (let i=a;i<=b;i++){
 //     y=i;
-//     c=Math.ceil(y/2);
-//     for(let j=2;j<=c;j++){
+//     c=Math.floor(y/2);
+//     for(let j=2;j<=c+1;j++){
 
 //         if(y%j===0){
 //             break;
 //         }
-//         else if(j===c){
+//         else if(j===c+1){
 //             console.log(`bu araliqdaki ${y} ededi sadedir`);
 //         }
 
