@@ -1,6 +1,6 @@
 // //daxil olunan eded sadedir yoxsa murekkeb
 // let a= +prompt("1 eded daxil edin:");
-// console.log(c);
+// c=Math.ceil(a/2);
 // if(a===1){
 //     console.log(`${a} ne murekkeb ededir ne de sade`);
     
