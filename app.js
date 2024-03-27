@@ -7,7 +7,12 @@
 // }
 // for(let i=2;i<=c+1;i++){
 
-//     if(a%i==0){
+//     if(i===2){
+//         console.log(`${a} sade ededir`);
+//         break;
+
+//     }
+//     else if(a%i==0){
 //          console.log(`${a} murekkeb ededir`);
 //         break;   
 //     }
@@ -62,28 +67,33 @@
 
 
 
-//iki eded araliqindaki sade ededler
-// let a=+prompt("birinci ededi daxil edin");
-// let b=+prompt("ikinci ededi daxil edin");
+//ki eded araliqindaki sade ededler
+let a=+prompt("birinci ededi daxil edin");
+let b=+prompt("ikinci ededi daxil edin");
 
-// let y;
-
-// for (let i=a;i<=b;i++){
-//     y=i;
-//     c=Math.floor(y/2);
-//     for(let j=2;j<=c+1;j++){
-
-//         if(y%j===0){
-//             break;
-//         }
-//         else if(j===c+1){
-//             console.log(`bu araliqdaki ${y} ededi sadedir`);
-//         }
+let y;
 
 
-//     }
+for (let i=a;i<=b;i++){
+    y=i;
+    if(y===2){
+        console.log(`bu araliqdaki ${y} ededi sadedir`);
+    }
+    c=Math.floor(y/2);
+    for(let j=2;j<=c+1;j++){
 
-// }
+        if(y%j===0){
+            break;
+        }
+       
+        else if(j===c+1){
+            console.log(`bu araliqdaki ${y} ededi sadedir`);
+        }
+
+
+    }
+
+}
 
 
 //sonu 7 ile biten reqemler
